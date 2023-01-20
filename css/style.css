@@ -55,6 +55,15 @@ body {
     color: #636060;    
 }
 
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover, .a:focus, a:active {
+    color: #E06733 ;
+}
+
 
 /*                        Header                       */
 .wrapper {
@@ -64,11 +73,6 @@ body {
 }
 
 .header {
-    position: fixed;
-    /* фиксация вверху  */
-    top: 0;
-    left: 0;
-    width: 100%;
     /* 100% ширина экрана */
     background-color: #EDF2EC;
 }
@@ -108,3 +112,155 @@ body {
 }
 
 /* Header end */
+
+
+
+
+/* First section */
+
+.wrapper-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firstpage {
+    padding-top: 62px;
+    padding-bottom: 62.64px;
+}
+
+.leaf-image {
+    max-width: 448.8px;
+    max-height: 407.36px;
+}
+
+.leaf-text {
+    padding-left: 224.2px;
+}
+
+h1 {
+    font-family: 'Inter';
+    color: #717171;
+    font-size: 45px;
+    line-height: 50px;
+}
+
+.borders-button {
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    display: inline;
+}
+
+.h1-leaf {
+    padding-bottom: 42px;
+    font-weight: 700;
+}
+
+.h4 {
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 20px;
+    width: 400px;
+}
+
+p {
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.p-leaf {
+    padding-bottom: 62px;
+    max-width: 525.44px;
+    font-size: 20px;
+    line-height: 35px;    
+}
+
+.h4-leaf {
+    display: inline;
+    padding: 14px 27px;
+    margin-bottom: 94px;
+}
+
+.first {
+    max-height: 532px;
+    background-color: #EDF2EC;
+}
+
+
+
+/* End of a first page */
+
+
+
+
+/* Seconde page - We are professional experienced gardeners */
+
+
+.second {
+    max-width: 1440px;
+    max-height: 666px;   
+    background-color: #FFFFFF;
+}
+
+
+h2 {
+    color: #499A18;
+    font-size: 40px;
+}
+
+.secondpage-h2 {
+    padding-top: 161px;
+    padding-bottom: 40px;
+    max-width: 463px;
+}
+
+.secondpage-p {
+    padding-bottom: 155px;
+    max-width: 605px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.secondpage-image {
+    height: 479px;
+    width: 464px;
+    margin-bottom: 94px;
+}
+
+/*                  End page - We are professional experienced gardeners           */
+
+
+
+
+
+/*                             Third page                       */
+
+.thirdpage-upstring {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.thirdpage-ul {
+    display: flex;
+}
+
+.thirdpage-li {
+    text-decoration: none;
+    color: #E06733;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    display: inline;
+    padding: 12px 40px;
+}
+
+.thirdpage-h2 {
+    margin-right: 142px;
+}
+
+
+.thirdpage-li:not(:last-child) {
+    margin-right: 38px;
+}
