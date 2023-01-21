@@ -400,6 +400,9 @@ h3 {
 
 .fourImgButton {
     padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .fourLink {
@@ -424,7 +427,10 @@ h3 {
 
 .fourImg {
     display: flex;
+    justify-content: center;
     padding-top: 51px;
+    max-width: 152px;
+    max-height: 174px;
 }
 
 
