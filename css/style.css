@@ -236,11 +236,21 @@ h2 {
 
 /*                             Third page                       */
 
+.thirdpage {
+    background-color: #EDF2EC;
+}
+
+.thirdpage-h2 {
+    font-family: 'Inika';
+    max-width: 306px;
+}
+
 .thirdpage-upstring {
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    margin-bottom: 90px;
 }
 
 .thirdpage-ul {
@@ -264,3 +274,158 @@ h2 {
 .thirdpage-li:not(:last-child) {
     margin-right: 38px;
 }
+
+.thirdcards {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    padding-bottom: 121px;
+}
+
+.threeCard {
+    max-width: 330px;
+    max-height: 450px;
+    border-radius: 20px;
+    border: 1px solid #E3E1D5;
+    margin-bottom: 55px;
+}
+
+h4 {
+    color: #E06733;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: "Inter";
+    font-weight: 700;
+}
+
+.thirdImg {
+    max-width: 329px;
+    max-height: 350px;
+    margin-bottom: 10px;
+}
+
+.thirdTextToCard {
+    text-align: center;
+}
+
+.thirdh4 {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.thirdParagraph {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 36px;
+}
+
+
+
+
+
+
+/*             4  section            */
+
+.fourPage {
+    color: #FFFFFF;
+}
+
+h3 {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.fourPageH3:not(:last-child) {
+    margin-right: 635px;
+}
+
+.fourPageH3:last-child {
+    text-align: right;
+}
+
+.fourPageText {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 6px;
+}
+
+.fourAnother {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 115px;
+}
+
+.fourTable {
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+}
+
+.fourTextInButton {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 40px;
+    border-radius: 20px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 41px;
+    margin-right: 41px;
+    background-color: #EDF2EC;
+}
+
+.fourTextInButton:last-child {
+    margin-bottom: 34px;
+}
+
+.fourTextInButton:first-child {
+    margin-top: 34px;
+}
+
+
+.fourText {
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #000000;
+    max-width: 100px;
+    max-height: 18px;
+    margin-right: 54px;
+}
+
+.fourImgButton {
+    padding-top: 50px;
+}
+
+.fourLink {
+    text-decoration: none;
+    color: #E06733;
+    border: 2px solid #E06733;
+    border-radius: 5px;
+    display: inline;
+    padding: 12px 32px;
+    font-family: 'Inika';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+}
+
+
+.fourArrow {
+    width: 16px;
+    height: 16px;
+}
+
+.fourImg {
+    display: flex;
+    padding-top: 51px;
+}
+
+
+/*                      5 section              */
